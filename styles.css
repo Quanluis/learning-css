@@ -1,0 +1,27 @@
+<style>
+        p {
+        color: darksalmon;
+
+        }
+        div p {
+    color: black;
+    font-size: 22px;
+        }
+        ul {
+            background-color: purple;
+            list-style: none;
+            border: 1px dashed black;
+            padding-left: 30%;
+        
+
+        }
+        li {
+            display: inline-block; 
+            border: 1px solid red;
+            background-color: burlywood;
+            width: 100px; 
+            height: 100px;
+            margin: 10px;
+            text-align: center;
+        }
+        </style>
