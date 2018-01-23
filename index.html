@@ -5,8 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Learning CSS</title>
+    <style>
+        p {
+        color: darksalmon;
+
+        }
+        div p {
+    color: black;
+    font-size: 22px;
+        }
+    </style>
 </head>
-<body>
+    <body>
 <!-- inline styles -->
 <!-- in line styles, these are probably the most difficult to maintain in large projects -->
 <!-- last ditch efforts --> 
@@ -18,5 +28,27 @@
            border-bottom-color:salmon;
            border-right-color:aliceblue;
            border-style: dotted;">hello</h1>
-</body>
+        <!-- internal styles --> 
+        <!-- these are still specific but a little easier to mantain --> 
+        <!-- also these are easier to extract later -->
+        <p>I like cheese</p>
+        <div>
+          <p>PIZZA IS LIFE</p>  
+          <p>I LIKE MEMES</p>
+        </div>
+        <ol>
+        <li>
+        gouda
+        </li>
+        <li>
+            muenster 
+        </li>
+        <li>
+            brie
+        </li>
+        <li>
+            blue cheese
+        </li>
+        <ol></ol>
+    </body>
 </html>
