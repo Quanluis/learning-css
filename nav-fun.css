@@ -1,0 +1,11 @@
+ul {
+    list-style-type:  none;
+    background-color: grey;
+}
+ul li {
+    color: black; 
+   display: inline-block; 
+   height: 60px;
+   width: 120px;
+
+}
