@@ -6,8 +6,28 @@ body {
     background-color: black;
 }
 .border {
-    position: relative;
-    margin:10px;
-    height: 10px;
-    justify-content: center;
+  position: relative;
+  display: inline-block;
+  padding: 10px; 
+  margin: 8px;
+  background-color:grey;
+
+  
+}
+h1 {
+   color: red;
+   position: relative;
+   justify-content: center;
+   text-align: center;
+   font-style: italic;
+
+}
+hr {
+    color: white;
+    background-color: white;
+}
+#explore {
+    color: blue;
+    position: static;
+    margin: 10px;
 }
